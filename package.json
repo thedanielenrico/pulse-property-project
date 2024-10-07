@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3005",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.0",
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
@@ -16,7 +18,10 @@
     "react-spinners": "^0.14.1"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
     "tailwindcss": "^3.4.1"
   }
 }

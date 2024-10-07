@@ -1,6 +1,6 @@
-import Link from "next/link";
 import PropertyCard from "./PropertyCard/PropertyCard";
 import properties from "@/properties.json";
+import Link from "next/link";
 
 const HomeProperties = () => {
   const recentProperties = properties.slice(0, 3);
